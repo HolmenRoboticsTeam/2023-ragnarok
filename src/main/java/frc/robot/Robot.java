@@ -25,7 +25,7 @@ public class Robot extends LoggedRobot {
   public void robotInit() {
     m_robotContainer = new RobotContainer();
 
-    Logger.recordMetadata("ProjectName", "MyProject"); // Set a metadata value
+    Logger.recordMetadata("ProjectName", "2023-ragnarok"); // Set a metadata value
 
     if (isReal()) {
       Logger.addDataReceiver(new WPILOGWriter("/U")); // Log to a USB stick
